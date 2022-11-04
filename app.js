@@ -28,12 +28,6 @@ function main(msg) {
   let parse = msg.match(/🚷[\s\S]*👣(\d+)км/)
   if (parse) parse = actPath(parse, false)
   if (parse) return parse
-//  parse = msg.match(/🚷.*(\d+)км/)
-//  if (parse) parse = actPath(parse, false)
-//  if (parse) return parse
-//  parse = msg.match(/👣(\d+)км/)
-//  if (parse) parse = actPath(parse)
-//  if (parse) return parse
   parse = msg.match(/🚷.*(\d+)\s?км/)
   if (parse) parse = actPath(parse, false)
   if (parse) return parse
