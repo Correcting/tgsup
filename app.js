@@ -95,7 +95,7 @@ function actPath(parse, light=true) {
       case 50: return '🛑Руины Гексагона<#>Двигаться дальше'
       case 51: return '🛏Безопасный привал<#>/deeprest<#>/eq_53'
       case 52: return '🚷В Темную зону'
-//      case 50: return '/mystuff'
+      case 50: return '/mystuff'
       case 63: return '/voevat_suda'
       case 68: case 69: return '⛺️Вернуться<#>Вернуться в лагерь'
       default: return false
