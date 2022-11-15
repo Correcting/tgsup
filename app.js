@@ -88,14 +88,14 @@ function actPath(parse, light=true) {
     switch (x) {
       case 2: return '👣Идти дaльше'
 //      case 22: return '🚷В Темную зону'
-      case 27: return '👣Идти дaльше'
+//      case 27: return '👣Идти дaльше'
       case 11: return 'Старая шахта<#>Двигаться дальше'
       case 40: return '/eq_54<#>/eq_73<#>👣Идти дaльше'
       case 45: return '🌁Высокий Хротгар<#>Двигаться дальше'
 //      case 50: return '🛑Руины Гексагона<#>Двигаться дальше'
       case 51: return '🛏Безопасный привал<#>/deeprest<#>/eq_53'
 //      case 52: return '🚷В Темную зону'
-//      case 50: return '/mystuff'
+      case 27: return '/mystuff'
       case 20: return '/voevat_suda'
       case 68: case 69: return '⛺️Вернуться<#>Вернуться в лагерь'
       default: return false
